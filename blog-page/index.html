@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de blog</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-color-primary text-color-white tracking-wider">
+    <header class="sticky top-0 z-50">
+        <nav class="container flex justify-between items-center">
+            <div class="py-5 text-color-secondary font-bold text-3xl">
+                <a href="#home">
+                    <span class="text-color-white">Respon</span>sive.
+                </a>
+            </div>
+            <div>
+                <ul class="hidden lg:flex items-center space-x-6">
+                    <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
+                    <li><a href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Testimonial</a></li>
+                    <li><a href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
+                    <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
+                    <li><a href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+
+                    <li><button class="btn">free trial</button></li>
+                </ul>
+            </div>
+
+            <!-- Mobile screen  -->
+            <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div id="menu" class="hidden bg-color-primary-dark h-[100vh] absolute inset-0">
+                <ul class="h-full grid place-items-center py-20">
+                    <li><a id="hLink" href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a id="hLink" href="#features" class="hover:text-color-secondary ease-in duration-200">Features</a></li>
+                    <li><a id="hLink" href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Testimonial</a></li>
+                    <li><a id="hLink" href="#pricing" class="hover:text-color-secondary ease-in duration-200">Pricing</a></li>
+                    <li><a id="hLink" href="#blog" class="hover:text-color-secondary ease-in duration-200">Blog</a></li>
+                    <li><a id="hLink" href="#contact" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+
+                    <li><button class="btn">free trial</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="blog">
+            <div class="container py-20">
+                <div class="text-center m-auto mb-20 md:w-1/2">
+                    <h4 class="font-bold text-color-secondary mb-4">Blog responsive - estilo 1</h4>
+                    <h1 class="title">Últimas actualizaciones de la página y novedades.</h1>
+                </div>
+
+                <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+                    <!-- card no 1 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog1.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">Four ways to cheer yourself up on Blue Monday!</a>
+    
+                            <p class="leading-relaxed my-5">On the second edition of Serious Business, Inc. editor Jim Ledbetter and Fusion senior editor Salmon debate...</p>
+    
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card no 2 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog2.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">How to Organize Your budget for Maximum Productivity?</a>
+    
+                            <p class="leading-relaxed my-5">Global provider connected products for consumers, and enterprises worldwide, supply chain control is everything...</p>
+    
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card no 3 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog3.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">Should Small Businesses Be Entitled to system?</a>
+
+                            <p class="leading-relaxed my-5">Our team provides skilled & experienced managers who know the intricacies of this vertical and focus...</p>
+
+
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- card no 1 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog1.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">Four ways to cheer yourself up on Blue Monday!</a>
+    
+                            <p class="leading-relaxed my-5">On the second edition of Serious Business, Inc. editor Jim Ledbetter and Fusion senior editor Salmon debate...</p>
+    
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card no 2 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog2.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">How to Organize Your budget for Maximum Productivity?</a>
+    
+                            <p class="leading-relaxed my-5">Global provider connected products for consumers, and enterprises worldwide, supply chain control is everything...</p>
+    
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card no 3 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog3.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">Should Small Businesses Be Entitled to system?</a>
+
+                            <p class="leading-relaxed my-5">Our team provides skilled & experienced managers who know the intricacies of this vertical and focus...</p>
+
+
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card no 1 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog1.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">Four ways to cheer yourself up on Blue Monday!</a>
+    
+                            <p class="leading-relaxed my-5">On the second edition of Serious Business, Inc. editor Jim Ledbetter and Fusion senior editor Salmon debate...</p>
+    
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card no 2 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog2.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">How to Organize Your budget for Maximum Productivity?</a>
+    
+                            <p class="leading-relaxed my-5">Global provider connected products for consumers, and enterprises worldwide, supply chain control is everything...</p>
+    
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card no 3 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog3.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">Should Small Businesses Be Entitled to system?</a>
+
+                            <p class="leading-relaxed my-5">Our team provides skilled & experienced managers who know the intricacies of this vertical and focus...</p>
+
+
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- card no 1 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog1.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">Four ways to cheer yourself up on Blue Monday!</a>
+    
+                            <p class="leading-relaxed my-5">On the second edition of Serious Business, Inc. editor Jim Ledbetter and Fusion senior editor Salmon debate...</p>
+    
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card no 2 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog2.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">How to Organize Your budget for Maximum Productivity?</a>
+    
+                            <p class="leading-relaxed my-5">Global provider connected products for consumers, and enterprises worldwide, supply chain control is everything...</p>
+    
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card no 3 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog3.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">Should Small Businesses Be Entitled to system?</a>
+
+                            <p class="leading-relaxed my-5">Our team provides skilled & experienced managers who know the intricacies of this vertical and focus...</p>
+
+
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- card no 1 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog1.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">Four ways to cheer yourself up on Blue Monday!</a>
+    
+                            <p class="leading-relaxed my-5">On the second edition of Serious Business, Inc. editor Jim Ledbetter and Fusion senior editor Salmon debate...</p>
+    
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card no 2 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog2.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">How to Organize Your budget for Maximum Productivity?</a>
+    
+                            <p class="leading-relaxed my-5">Global provider connected products for consumers, and enterprises worldwide, supply chain control is everything...</p>
+    
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card no 3 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog3.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">Should Small Businesses Be Entitled to system?</a>
+
+                            <p class="leading-relaxed my-5">Our team provides skilled & experienced managers who know the intricacies of this vertical and focus...</p>
+
+
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                     <!-- card no 1 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog1.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">Four ways to cheer yourself up on Blue Monday!</a>
+    
+                            <p class="leading-relaxed my-5">On the second edition of Serious Business, Inc. editor Jim Ledbetter and Fusion senior editor Salmon debate...</p>
+    
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card no 2 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog2.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+    
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+    
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">How to Organize Your budget for Maximum Productivity?</a>
+    
+                            <p class="leading-relaxed my-5">Global provider connected products for consumers, and enterprises worldwide, supply chain control is everything...</p>
+    
+    
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card no 3 -->
+                    <div>
+                        <div class="lg:h-[40vh] rounded-xl scale-100 overflow-hidden">
+                            <img src="./img/blog3.jpg" alt="" class="lg:h-full w-full hover:scale-125 transition duration-300 ease-in-out">
+                        </div>
+
+                        <div>
+                            <div class="flex items-center gap-5 py-5">
+                                <p>20 August 2022</p>
+                                <p>1 min read</p>
+                            </div>
+
+                            <a href="#blog" class="text-2xl font-bold underline hover:text-color-secondary hover:no-underline">Should Small Businesses Be Entitled to system?</a>
+
+                            <p class="leading-relaxed my-5">Our team provides skilled & experienced managers who know the intricacies of this vertical and focus...</p>
+
+
+                            <a href="#blog" class="inline-block font-bold hover:text-color-secondary transition-all duration-300 ease-in-out">
+                                <span class="tracking-wider capitalize underline hover:no-underline">Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="footer">
+            <div class="bg-color-primary-dark relative">
+                <div class="container py-10">
+                    <div class="grid gap-10 md:grid-cols-3 pb-10">
+                        <div class="space-y-6">
+                            <h4 class="font-bold text-lg">About App</h4>
+                            <p class="leading-relaxed">This Should Be Used To Tell A Story And Include Any Testimonials You Might Have About Your Product Or Service For Your Clients</p>
+                            <div class="flex gap-5 items-center">
+                                <p>Follow Us</p>
+                                    <i class="fa-brands fa-facebook-f cursor-pointer hover:text-color-secondary"></i>
+                                    <i class="fa-brands fa-twitter cursor-pointer hover:text-color-secondary"></i>
+                                    <i class="fa-brands fa-youtube cursor-pointer hover:text-color-secondary"></i>
+                                    <i class="fa-brands fa-instagram cursor-pointer hover:text-color-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="flex justify-between md:justify-around">
+                            <div class="space-y-6">
+                                <h4 class="font-bold text-lg">Quick Links</h4>
+                                <ul class="space-y-3">
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">Home</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#features">Features</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#testimonial">Testimonial</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#pricing">Pricing</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#blog">Blog</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#contact">Contact</a></li>
+
+                                </ul>
+                            </div>
+
+                            <div class="space-y-6">
+                                <h4 class="font-bold text-lg">Help</h4>
+                                <ul class="space-y-3">
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#">About Us</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#features">Partners</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#testimonial">Career</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#pricing">Reviews</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#blog">Terms & Conditions</a></li>
+                                    <li class="underline hover:no-underline hover:text-color-secondary"><a href="#contact">Help</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="space-y-6">
+                            <h4 class="font-bold text-lg">Newsletter</h4>
+                            <p class="leading-relaxed">Subscribe With Email And Loads Of News Will Be Sent To You</p>
+                            <div class="flex items-center">
+                                <input type="text" class="w-3/4 text-color-gray bg-color-white p-2 lg:p-3 rounded-l-md focus:outline-none" placeholder="Enter Your Email">
+                                
+                                <button type="submit" class="bg-color-secondary px-4 py-2 lg:px-5 lg:py-3 rounded-r-md hover:opacity-90">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="flex justify-center pt-10 border-t border-color-gray">
+                        <p>2023 &copy; Javier Arteaga.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <script>
+
+        const navbar = document.querySelector('header');
+
+        const sectionn = document.querySelectorAll('section');
+        const navlinkss = document.querySelectorAll('nav ul li a');
+
+        window.onscroll = () => {
+            if(window.scrollY > 100) {
+                navbar.classList.add('bg-color-primary-dark');
+                navbar.classList.add('border-b');
+                navbar.classList.add('border-color-gray');
+            } else {
+                navbar.classList.remove('bg-color-primary-dark');
+                navbar.classList.remove('border-b');
+                navbar.classList.remove('border-color-gray');
+            }
+
+            // active link
+            let current = 'home';
+
+            sectionn.forEach((section) => {
+                const sectionTop = section.offsetTop;
+                if(pageYOffset >= sectionTop-60) {
+                    current = section.getAttribute('id');
+                }
+            })
+            navlinkss.forEach((item) => {
+                item.classList.remove('text-color-secondary');
+                if(item.href.includes(current)) {
+                    item.classList.add("text-color-secondary");
+                } 
+            });
+        }
+
+        // Mobile menu
+        const hamburger = document.querySelector('#hamburger');
+        const menu = document.querySelector('#menu');
+        const hLink = document.querySelectorAll('#hLink');
+        const faSolid = document.querySelector(".fa-solid");
+
+        hamburger.addEventListener("click", () => {
+            menu.classList.toggle('hidden');
+            faSolid.classList.toggle('fa-xmark');
+        })
+
+        hLink.forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+                faSolid.classList.toggle('fa-xmark');
+            })
+        })
+
+    </script>
+
+</body>
+</html>
